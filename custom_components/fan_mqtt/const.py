@@ -1,0 +1,13 @@
+DOMAIN = "fan_mqtt"
+
+CONF_TOPIC_IN = "topic_in"
+CONF_TOPIC_OUT = "topic_out"
+CONF_PAYLOAD_ONOFF = "payload_onoff"
+CONF_PAYLOAD_UP = "payload_up"
+CONF_PAYLOAD_DOWN = "payload_down"
+
+DEFAULT_TOPIC_IN = ""
+DEFAULT_TOPIC_OUT = ""
+DEFAULT_PAYLOAD_ONOFF = ""
+DEFAULT_PAYLOAD_UP = ""
+DEFAULT_PAYLOAD_DOWN = ""

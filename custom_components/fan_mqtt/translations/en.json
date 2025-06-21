@@ -1,0 +1,23 @@
+{
+  "title": "Dummy Fan via MQTT",
+  "step": {
+    "user": {
+      "title": "Configure Dummy Fan",
+      "data": {
+        "broker": "MQTT broker address",
+        "port": "Port",
+        "username": "Username (optional)",
+        "password": "Password (optional)",
+        "topic_in": "MQTT topic for inbound commands",
+        "topic_out": "MQTT topic for outbound RF commands",
+        "payload_onoff": "Payload for ON/OFF",
+        "payload_up": "Payload for FAN_UP",
+        "payload_down": "Payload for FAN_DOWN"
+      }
+    }
+  },
+  "options": {
+    "title": "Dummy Fan Options",
+    "data": {}
+  }
+}
